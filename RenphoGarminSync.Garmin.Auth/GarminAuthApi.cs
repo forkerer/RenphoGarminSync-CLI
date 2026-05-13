@@ -178,6 +178,7 @@ namespace RenphoGarminSync.Garmin.Auth
 
             request.AddQueryParameter("ticket", serviceTicket);
             request.AddQueryParameter("login-url", serviceUrl);
+            request.AddQueryParameter("accepts-mfa-tokens", "true");
 
             var result = await _oauthClient.ExecuteAsync(request);
             if (!result.IsSuccessful)

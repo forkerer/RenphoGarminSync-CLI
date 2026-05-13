@@ -1,6 +1,6 @@
 ﻿{
   "Garmin": {
-    "UserAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",
+    "UserAgent": "com.garmin.android.apps.connectmobile",
     "SSOBaseUrl": "https://sso.garmin.com",
     "ApiBaseUrl": "https://connectapi.garmin.com",
     "ConsumerKey": "fc3e99d2-118c-44b8-8ae3-03370dde24c0",
